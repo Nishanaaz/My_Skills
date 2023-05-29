@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient( to right, #051937, #002768, #273199, #5f30c6, #9f12eb );
+    padding: 15px 50px 100px 50px;
+}
+
+
+
+.cont{
+    height:8rem;
+    width:auto;
+    margin-top: 2rem;
+}
+.cont H1{
+    text-align: center;
+    color: #FFFFFF;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif,sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    /* text-decoration: none solid rgb(255,255,255); */
+}
+.container{
+    height: 45vw;
+    width: 95vw;
+    /* background-color: #FFFFFF; */
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    
+    
+}
+.box{ 
+    
+    height:25rem;
+    width: 30rem;
+    /* border:2px solid red; */
+    background-color:white ;
+    border-radius: 1.5%;
+    justify-content: center;
+    text-align: center;
+    /* margin: auto; */
+    font-family: sans-serif;
+    color: gray;
+    /* padding: 20px; */
+    gap: 1rem;
+    transition: all 0.3s ease-in-out;
+    /* border: 2px solid red; */
+
+    
+
+ 
+
+}
+
+ img{
+    height:80px;
+    width:80px;
+    margin-top: 10px;
+
+    
+}
+
+h1{
+    margin-top: 20px;
+    color: black;
+}
+button{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    height: 3rem;
+    width: 10rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
+p{
+    margin-top: 10px;
+}
+.box:hover{
+    transform: scale(1.03);
+}
